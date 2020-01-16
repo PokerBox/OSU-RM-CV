@@ -19,6 +19,6 @@ https://github.com/amusi/awesome-object-detection
 
 ## 2020/1/15 Update ##
 
-New samples of armor plates uploaded! You need to detect the red light bars on the edges of the armor plates. The final goal is to return the geometric center of the armor plate. For your first step, start with red_1.png. Ideas and possible solutions will be discussed during th meeting.
+New samples of armor plates uploaded! You need to detect the red light bars on the edges of the armor plates. The final goal is to return the geometric center of the armor plate. For your first step, start with red_1.png. Ideas and possible solutions will be discussed during the meeting.
 
 
