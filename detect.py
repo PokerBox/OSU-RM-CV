@@ -1,5 +1,7 @@
 import cv2
 import time
+import os
+import re
 import numpy as np
  
 def detect(img):
@@ -11,4 +13,12 @@ def detect(img):
     return max_loc
 
 if __name__ == '__main__' :
-    pass
+
+    path = "Samples/"
+
+    filenames = []
+    for file in os.listdir(path):
+        filename = os.fsdecode(file)
+        if filename.endswith(".jpg") or filename.endswith(".jpg"):
+            filenames.append(filename)
+    print(filenames)
